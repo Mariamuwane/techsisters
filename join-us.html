@@ -12,25 +12,25 @@
     <title>Become a Part of Our Community.</title>
     <div id="google_translate_element"></div>
     <!-- Header/Navigation -->
-    <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+    <nav class="navbar navbar-expand-lg d-flex justify-content-between sticky-top">
               <div class="navbar-header nav-logo d-flex align-items-center">
-                  <h1>Tech<span class="logo-s">Sisters</span></h1>
-                  <a class="navbar-brand logo" href="indexbs.html">
+                  <h1 class="text-logo" onclick="window.location.href='index.html'">Tech<span class="logo-s">Sisters</span></h1>
+                  <a class="navbar-brand logo" href="index.html">
                       <img src="Assets/Pink Red Illustrated Women for Women Instagram Post.png" width="50px">
                   </a>
               </div>
               <div>
-                  <ul class="nav navbar-nav me-auto mb-2 collapse navbar-collapse">
+                  <ul class="nav navbar-nav me-auto mb-2 collapse navbar-collapse sticky-top">
                       <!-- <li class="active"><a href="index.html">Home</a></li> -->
                       <li class="nav-item pe-5"><a class="text-decoration-none"  href="who-we-are.html">Who We Are</a></li>
                       <li class="nav-item dropdown pe-5">
                         <a class="nav-link dropdown-toggle text-decoration-none" href="resources.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Resources
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                           <li><a class="dropdown-item" href="#">Workshops</a></li>
                           <li><a class="dropdown-item" href="#">Mentorships Programs</a></li>
-                          <li><hr class="dropdown-divider"></li>
+                          <!-- <li><hr class="dropdown-divider"></li> -->
                           <li><a class="dropdown-item" href="#">Jobs boards</a></li>
                         </ul>
                       </li>
@@ -44,11 +44,11 @@
 </head>
 <body>
     <div>
-      <h2 class='h2'>
+      <h2 class='form-head h2'>
         Fil the form to become a part of the Community.
     </h2>
     </div>
-    <div class="container">
+    <div class="container form">
     
         
          <form onsubmit="formSubmit(event)">
@@ -95,20 +95,25 @@
        
              <input id="confirmPassword" type="password" placeholder="Confirm Password" required class="form-control"/><br>
        
-             <button type="submit">Submit</button>
+             <button type="submit" class="button submit" href="#">Submit</button>
            </form>
     </div>
-    <div>
-      <!-- footer -->
-      <footer class="text-center">
-          <p><a href="conduct.html">Code of Conduct • </a>
-          <a href="privacy.html">Privacy Policy • </a>
-          copyright, By Uwane</p>
-      </footer>
-    </div>
-      <p id="alertMessage"></p>
-      <p id="successMessage"></p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.1755654363765!2d3.3742289153953866!3d6.499445225244195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c6109587b1f%3A0xdd6210419ac6bf44!2sThe%20Nest%20Hub!5e0!3m2!1sen!2sng!4v1630162940226!5m2!1sen!2sng" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <div>
+        <!-- footer -->
+        <footer class="text-center">
+            <section class="footer">
+                <div>
+                    <p><a href="conduct.html">Code of Conduct • </a>
+                    <a href="privacy.html">Privacy Policy • </a>
+                    Copyright, By Uwane</p>            
+                </div>
+            </section>
+        </footer>
+    </div>
+      <!-- <p id="alertMessage"></p>
+      <p id="successMessage"></p> -->
     
 
         <script type="text/javascript">
