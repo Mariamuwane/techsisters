@@ -1,5 +1,14 @@
 /* body  {background-color: #f0a3bc;} */
 
+html,body
+{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 /* The navigation bar */
 .navbar {
   overflow: visible;
@@ -99,19 +108,19 @@ padding: 0px 15px;
 }
 
 .banner {
+  /* align-items:center; */
   /* The image used */
   background-image:linear-gradient(
     rgba(255, 255, 255, .5), 
     rgba(255, 255, 255, .5)
-  ),url('Assets/women-hands.jpg');
-  height: 100%;
+  ),url('Assets/capture.png');
+  /* height: 100%; */
+  /* width:80%; */
   background-repeat: no-repeat;
-  background-size:1200px 300px;
+  background-size:1300px 500px;
+  /* background-cover:cover; */
   background-color:#000000;
-  /* background-blend-mode: lighten; */
-  /* filter: alpha(Opacity=90); */
-  /* opacity: 0.5; */
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 150px;
  padding-top:80px;
  padding-bottom:100px;
